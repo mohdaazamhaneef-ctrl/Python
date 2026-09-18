@@ -16,6 +16,3 @@ print(data[-1]) # Negative indexing starts from -1 from the right side.
 # A tuple allowed duplicate elements
 data = (10,20,30,40,50,30)
 print(data)
-
-data = (50,60,70,80,90,30)
-print(data)
