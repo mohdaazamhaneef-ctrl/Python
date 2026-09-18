@@ -14,5 +14,3 @@ print(data[2])
 print(data[-1]) # Negative indexing starts from -1 from the right side.
 
 # A tuple allowed duplicate elements
-data = (10,20,30,40,50,30)
-print(data)
