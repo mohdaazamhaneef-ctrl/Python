@@ -53,3 +53,36 @@ print(data.index('P'))
 data="Python Programming"
 print(data.count('P'))
 print(data.count('p'))
+
+#starstwith()
+email="admin@gmail.com"
+print(email.startswith("admin"))
+
+#endswith()
+email="admin@gmail.com"
+print(email.endswith("com"))
+print('@' in email)
+
+#split()
+data="I Love Python Programming"
+newData=data.split()
+print(data)
+print(newData)
+
+#join()
+data=['I','Love','Python','Programming']
+newData=" ".join(data)
+print(newData)
+
+#isalpha()
+data="Invertis"         #data="Invertis123"   #False
+print(data.isalpha())
+
+#isdigit()
+data="12345"            #data="Invertis123"   #False
+print(data.isdigit())
+
+#isalnum()
+data="Invertis12345"    #data="Invertis@12345"   #False
+print(data.isalnum())
+
