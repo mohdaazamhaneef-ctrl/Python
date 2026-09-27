@@ -68,3 +68,40 @@ print(x<y and y>x)
 print(x<y and x==y)
 print(x>y and x<y)
 print(x>y and x==y)
+
+#is operator: the is operator checks whether two variables refer to the same object in momery.
+x=[10,20]
+y=x
+print(x is y)
+
+print(id(x))   # id(): Merory identity of object
+print(id(y))
+print(x==y)
+
+#== vs is with list
+x=[10,20]
+y=[10,20]
+
+print(x==y)
+print(x is y)
+x.append(33)   # The list reffered by x is modified.
+print(x==y)
+print(id(x))
+print(id(y))
+
+#Membership Operators
+# IN
+data=[10,20,30,66,88]
+print(22 in data)
+print(20 in data)
+
+#NOT IN
+data=[10,20,30,66,88]
+print(22 not in data)
+print(20 not in data)
+
+# Important for python, Pyhton does not support:
+# i++ Post-increment
+# ++i Pre-increment
+# i-- Post-decrement
+# --i Pre-decrement
