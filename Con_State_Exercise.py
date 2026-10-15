@@ -1,3 +1,9 @@
+#Ex1. Write a program to check whether a number is positive.
+num=int(input("Enter Number: "))
+if num>0:
+    print("Given Number Is Positive")
+
+
 # Bank Loan Eligibility
 age=int(input("Enter Age: "))
 salary=int(input("Enter Salary: "))
