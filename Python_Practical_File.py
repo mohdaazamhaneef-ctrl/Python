@@ -72,3 +72,17 @@ data = [22, 55, 12, 89, 34, 67]
 smallest=min(data)
 print("Smallest Number:",smallest)
 
+# Q14: Count vowels in a string. 
+char=input("Enter Charecter: ")
+if char in "aeiouAEIOU":
+    print("Vowel")
+else:
+    print("Consonants")
+
+# Q15: Count the number of spaces in a sentence.  
+text = "Python is easy to learn"
+space=0
+for i in text:
+    if i==" ":
+        space+=1
+print("Total Space:",space)
