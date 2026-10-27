@@ -56,3 +56,19 @@ for i in range(1,51):
         count_odd+=1
 print("Even Numbers Count:",count_even)
 print("Odd Numbers Count:",count_odd)
+
+# Q11: Print the elements of a list in reverse order.
+data = [22, 33, 12, 32, 45, 13]
+data.reverse()
+print(data)
+
+# Q12: Find the largest number in a list using a for loop.
+data = [22, 55, 12, 89, 34, 67]
+largest=max(data)
+print("Largest Number:",largest)
+
+# Q13: Find the smallest number in a list.
+data = [22, 55, 12, 89, 34, 67]
+smallest=min(data)
+print("Smallest Number:",smallest)
+
