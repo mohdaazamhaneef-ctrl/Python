@@ -31,3 +31,28 @@ for i in range(1,101):
     if i%2!=0:
         total+=i
 print("sum of odd numbers=",total)
+
+# Q7: Print the multiplication table of 7. 
+for i in range(1,11):
+    print(7,"x",i,"=",7*i)
+
+# Q8: Take a number from the user and print its multiplication table. 
+num=int(input("Enter Number:"))
+for i in range(1,11):
+    print(num,"x",i,"=",num*i)
+
+# Q9: Print numbers from 1 to 100 that are divisible by both 3 and 5. 
+for i in range(1,101):
+    if i%3==0 and i%5==0:
+        print(i)
+
+#Q10: Count even and odd numbers between 1 and 50. 
+count_even=0
+count_odd=0
+for i in range(1,51):
+    if i%2==0:
+        count_even+=1
+    else:
+        count_odd+=1
+print("Even Numbers Count:",count_even)
+print("Odd Numbers Count:",count_odd)
