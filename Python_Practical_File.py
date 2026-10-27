@@ -86,3 +86,23 @@ for i in text:
     if i==" ":
         space+=1
 print("Total Space:",space)
+
+
+                            #SECTION 2: CONDITIONAL STATEMENTS AND NESTED IF#
+#Q1: ATM Withdrawal 
+correct_pin=9760
+balance=15000
+pin=int(input("Enter Your Pin:"))
+if pin==correct_pin:
+    amount=int(input("Enter Withdrawal Amount:"))
+    if amount%100==0:
+        if balance>=amount:
+            balance-=amount
+            print("Withdrawal Successfull")
+            print("Remaining Balance:",balance)
+        else:
+            print("Insufficient Balance")
+    else:
+        print("Amount must be multiple of 100")
+else:
+    print("Invalid PIN")
