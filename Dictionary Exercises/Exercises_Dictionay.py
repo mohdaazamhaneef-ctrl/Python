@@ -18,31 +18,10 @@ elif marks>=40:
 else:
     print("Failed")
     
-#Exercise3
-products={"Laptop":10,"Mouse":3,"Keyboard":0,"Monitor":7,"Printer":2}
-for product, stock in products.items():
-    if stock==0:
-        print(product,"Out of stock")
-    else:
-        if stock<=5:
-            print(product,"Low Stock")
-        else:
-            print(product,"Available")
 
-#Exercise4
-employees={"Rahul":{"salary":60000,"department":"IT"},"Amit":{"salary":40000,"department":"HR"},"Priya":{"salary":70000,"department":"IT"},"Neha":{"salary":45000,"department":"Finance"}}
-for name, info in employees.items():
-    salary=info["salary"]
-    department=info["department"]
-    if salary>=50000:
-        if department=="IT":
-            print(name,"Senior IT Employee")
-        elif department=="HR":
-            print(name,"Seniro HR Employee")
-        else:
-            print(name,"Senior Employee")
-    else:
-        print(name,"junior Employee")
+
+
+
 
 
 #Exercise4
